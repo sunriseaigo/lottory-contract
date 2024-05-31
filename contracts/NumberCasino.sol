@@ -12,7 +12,7 @@ contract NumberCasino {
     uint256 private totalBetAmount;
     uint256 private seed;
 
-    event BetPlaced(address bettor, uint256 amount, unt256 numberSelected);
+    event BetPlaced(address bettor, uint256 amount, uint256 numberSelected);
     event BettingStarted();
     event BettingEnded(uint256 winningNumber);
     event WinningsWithdrawn(address winner, uint256 amount);
